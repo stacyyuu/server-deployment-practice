@@ -5,10 +5,10 @@ const request = supertest(server);
 
 test('cat endpoint', async () => {
   const response = await request.get('/cat');
-  expect(response.text).toBe('I am a cat!');
+  expect(response.text).toBe('I am a cat! Meow!');
 });
 
 test('dog endpoint', async () => {
   const response = await request.get('/dog');
-  expect(response.text).toBe('I am a dog!');
+  expect(response.text).toBe('I am a dog! Woof!');
 });
