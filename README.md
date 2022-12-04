@@ -1,11 +1,31 @@
-# server-deployment-practice
+## LAB - Class 1
 
-## URLS:
+### Project: Server Deployment Practice
+### Author: Stacy Yu
+### Links and Resources
 - [Server Cat Endpoint](https://server-deployment-practice-wug4.onrender.com/cat)
 - [Server Dog Endpoint](https://server-deployment-practice-wug4.onrender.com/dog)
 - [Pull Request](https://github.com/stacyyuu/server-deployment-practice/pull/1)
 - [Actions](https://github.com/stacyyuu/server-deployment-practice/actions/runs/3610784160)
 
+### Setup
+- None
+
+### How to initialize/run your application (where applicable)
+- npm start
+
+### How to use your library (where applicable)
+- Use endpoints /cat, /dog
+
+### Tests
+- Jest
+- Supertest
+- Node.yml on GitHub
+
+### UML
+- N/A
+
+### Notes
 12/3/22
 - Node: JS in the server, single thread and event driven. 
 - CI: Continuous integration… tools that make your programming more effective and efficient. 
