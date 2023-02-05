@@ -1,8 +1,9 @@
 const express = require('express');
 const server = express();
 
-// This server is correct when:
-
+server.get('/', (req,res)=>{
+  res.send('Hello World!')
+})
 // cat endpoint, gives you 'I am a cat!'
 server.get('/cat', (_, res) => res.send('I am a cat! Meow!'));
 
